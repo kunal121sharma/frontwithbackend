@@ -2,7 +2,7 @@ import axios from "axios";
 
 import * as actionTypes from '../constants/productConstant';
 
-const URL = 'http://localhost:5050';
+const URL = 'https://backend-pszz.onrender.com';
 
 
 

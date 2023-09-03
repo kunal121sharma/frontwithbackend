@@ -1,4 +1,4 @@
-import {applyMiddleware, combineReducers, createStore } from 'redux';
+import {applyMiddleware, combineReducers, legacy_createStore } from 'redux';
 
 import thunk from 'redux-thunk';
 
@@ -17,7 +17,7 @@ const reducer = combineReducers({
 
 const middleware = [thunk];
 
-const store =  createStore(
+const store =  legacy_createStore(
 
     reducer,
     composeWithDevTools(applyMiddleware(...middleware)) 

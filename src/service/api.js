@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const URL = 'http://localhost:5050';
+const URL = 'https://backend-pszz.onrender.com';
 
 
 

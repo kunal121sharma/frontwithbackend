@@ -5,7 +5,7 @@ import * as actionType from '../constants/cartConstant';
 
 
 
-const URL = 'http://localhost:5050';
+const URL = 'https://backend-pszz.onrender.com';
 
 export const addToCart = (id , quantity) => async(dispatch) => {
     try{
